@@ -2,44 +2,125 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>La Vaquita Marina</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Vlog</title>
+
     <link rel="stylesheet" href="styles.css">
-    <script src="./script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>La Vaquita Marina</h1>
-        <p>El lugar donde recordamos.</p>
-    </header>
-    <main>
-        <article class="vlog-entry">
-            <h2>Albert Einstein tenía razón</h2>
-            <p class="date">Fecha: 1 de enero de 2060</p>
-            <div class="container">
-             <img src="abejas.png" alt="Descripción de la imagen para SEO y accesibilidad" width="300" height="400">
-            </div>
-            <p class="description">Esta es la descripción del primer vlog. Aquí hablo sobre mis experiencias recientes. <span class="more-text">Más detalles sobre el contenido del video, incluyendo anécdotas y reflexiones.</span> <button class="toggle-btn">Leer más</button></p>
-        </article>
-        <article class="vlog-entry">
-            <h2>Título del Vlog 2</h2>
-            <p class="date">Fecha: 20 de Mayo de 2059</p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <p class="description">Descripción del segundo vlog. Comparto mis viajes y recomendaciones. <span class="more-text">Información adicional sobre lugares visitados y consejos para viajeros.</span> <button class="toggle-btn">Leer más</button></p>
-        </article>
-        <article class="vlog-entry">
-            <h2>Título del Vlog 3</h2>
-            <p class="date">Fecha: 10 de marzo de 2023</p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <p class="description">En este vlog, discuto temas de actualidad y mi opinión. <span class="more-text">Análisis más profundo y enlaces a recursos relacionados.</span> <button class="toggle-btn">Leer más</button></p>
-        </article>
-    </main>
-    <footer>
-        <p>&copy; 2023 Mi Vlog. Todos los derechos reservados.</p>
-    </footer>
+
+<header>
+    <div class="top-bar">
+        <span class="date-today"></span>
+        <span>Edición digital · España</span>
+    </div>
+    <h1>La Vaquita Marina</h1>
+    <p class="tagline">Diario de memoria, ciencia y reflexión</p>
+</header>
+
+<nav class="index">
+    <h3>En esta edición</h3>
+    <ul>
+        <li>Ciencia · Albert Einstein tenía razón</li>
+        <li>Viajes · Crónica de un viaje</li>
+        <li>Opinión · El ruido del presente</li>
+    </ul>
+</nav>
+
+<main>
+
+    <!-- ARTÍCULO 1 -->
+    <article class="news-article closed">
+        <p class="section">CIENCIA</p>
+        <h2 class="headline clickable">Albert Einstein tenía razón</h2>
+
+        <div class="article-content">
+            <p class="meta">1 de enero de 2060 · Redacción</p>
+
+            <p class="lead">
+                Una reflexión personal sobre el tiempo, la memoria y la intuición científica.
+            </p>
+
+            <figure>
+                <img src="abejas.png" alt="Einstein rodeado de abejas">
+                <figcaption>La mente científica en diálogo con la naturaleza.</figcaption>
+            </figure>
+
+            <p>
+                Este artículo transforma un vlog personal en una pieza periodística,
+                invitando a una lectura lenta y reflexiva.
+            </p>
+
+            <blockquote>
+                “El tiempo es una ilusión persistente.”
+            </blockquote>
+
+            <p class="more-text">
+                Más detalles, anécdotas personales y reflexiones sobre ciencia,
+                memoria y experiencia subjetiva.
+            </p>
+
+            <button class="toggle-btn">Leer más</button>
+        </div>
+    </article>
+
+    <!-- ARTÍCULO 2 -->
+    <article class="news-article closed">
+        <p class="section">VIAJES</p>
+        <h2 class="headline clickable">Crónica de un viaje que cambió mi forma de mirar</h2>
+
+        <div class="article-content">
+            <p class="meta">20 de mayo de 2059 · Crónica</p>
+
+            <p class="lead">
+                Un diario de campo escrito desde el movimiento.
+            </p>
+
+            <p>
+                Viajar entendido como observación, pausa y escritura.
+            </p>
+
+            <p class="more-text">
+                Notas adicionales y reflexiones sobre el desplazamiento
+                como forma de conocimiento.
+            </p>
+
+            <button class="toggle-btn">Leer más</button>
+        </div>
+    </article>
+
+    <!-- ARTÍCULO 3 -->
+    <article class="news-article closed">
+        <p class="section">OPINIÓN</p>
+        <h2 class="headline clickable">El ruido del presente</h2>
+
+        <div class="article-content">
+            <p class="meta">10 de marzo de 2023 · Opinión</p>
+
+            <p class="lead">
+                Una mirada crítica sobre la saturación informativa.
+            </p>
+
+            <p>
+                El exceso de estímulos debilita nuestra capacidad de atención
+                y pensamiento profundo.
+            </p>
+
+            <p class="more-text">
+                Análisis más profundo y referencias culturales
+                sobre la economía de la atención.
+            </p>
+
+            <button class="toggle-btn">Leer más</button>
+        </div>
+    </article>
+
+</main>
+
+<footer>
+    © 2023 La Vaquita Marina · Archivo digital
+</footer>
+
 </body>
 </html>
