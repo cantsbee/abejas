@@ -119,8 +119,37 @@ main {
     text-align: justify;
 }
 
-figure img {
-    width: 100%;
+/* figure img {
+    width: 60%;
+    align-items: center;
+} */
+
+img[alt="Einstein"] {
+    width: 40%;
+    display: block;
+    margin: 1rem auto;
+}
+
+img[alt="abejas1"] {
+    width: 40%;
+    display: block;
+    margin: 1rem auto;
+}
+
+img[alt="manzana"] {
+    width: 40%;
+    display: block;
+    margin: 1rem auto;
+}
+img[alt="algodon"] {
+    width: 40%;
+    display: block;
+    margin: 1rem auto;
+}
+img[alt="polinizador"] {
+    width: 40%;
+    display: block;
+    margin: 1rem auto;
 }
 
 figcaption {
@@ -128,6 +157,7 @@ figcaption {
     color: #555;
     border-top: 1px solid #ccc;
     padding-top: 0.3rem;
+    text-align: center;
 }
 
 blockquote {
